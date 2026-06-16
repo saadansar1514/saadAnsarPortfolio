@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saad Ansar — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="ring"></div>
+
+  <!-- Floating BG -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+  <div class="stars" id="stars"></div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-logo">
+      <div class="avatar-pill">S</div>
+      Saad Ansar
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-tag">👋 Hey there!</div>
+        <h1 class="hero-title">
+          I'm <span>Saad</span><br>Ansar
+        </h1>
+        <p class="hero-sub">⚡ Junior Software Engineer</p>
+        <p class="hero-desc">
+          Building responsive, high-performance web apps with React, Next.js, Angular & Blockchain. I craft clean,
+          maintainable code with a love for great UX.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">🚀 See My Work</a>
+          <a href="#contact" class="btn btn-outline">💌 Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-character">
+        <div class="character-wrap">
+          <div class="photo-bg">
+            <canvas id="codeCanvas"></canvas>
+            <div class="vortex-overlay"></div>
+          </div>
+          <!-- floating icons -->
+          <div class="float-icon">⚛️</div>
+          <div class="float-icon">🔗</div>
+          <div class="float-icon">🅰️</div>
+          <div class="float-icon">🌐</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-title">About Me 🧑‍🚀</div>
+        <p class="section-subtitle">A little about who I am and what drives me</p>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-card">
+          <p>
+            Junior Software Engineer with hands-on experience in developing responsive and high-performance
+            web applications using React, Next.js, Angular, and Blockchain technologies.
+          </p>
+          <p style="margin-top:14px">
+            Skilled in building reusable components, integrating third-party APIs, managing state with Redux/Context
+            API, and writing clean, maintainable code in Agile environments.
+          </p>
+          <p style="margin-top:14px">
+            Strong problem-solving skills and eagerness to contribute to innovative teams while growing in modern
+            frontend and web3 development.
+          </p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:24px; flex:1; min-width:220px;">
+          <div class="about-stats">
+            <div class="stat-pill"><span class="num">4+</span><span class="lbl">Projects</span></div>
+            <div class="stat-pill"><span class="num">1+</span><span class="lbl">Years Exp</span></div>
+            <div class="stat-pill"><span class="num">10+</span><span class="lbl">Skills</span></div>
+          </div>
+          <div class="about-card" style="margin-top:0">
+            <p>📍 <strong>Islamabad, Pakistan</strong></p>
+            <p style="margin-top:8px">📧 saadsatti1514@gmail.com</p>
+            <p style="margin-top:8px">💼 Open to exciting opportunities!</p>
+            <p style="margin-top:8px">🎓 BS Computer Science — 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-title">Experience 💼</div>
+        <p class="section-subtitle">Where I've worked and what I've done</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-role">Software Engineer</div>
+            <div class="timeline-company">Kodware</div>
+            <div class="timeline-date">May 2025 — Present</div>
+            <ul>
+              <li>Developed scalable, high-performance React.js applications using reusable components and modern state
+                management (Redux/Context API), boosting code reusability and team efficiency.</li>
+              <li>Integrated third-party APIs and collaborated with backend and UI/UX teams to deliver seamless,
+                optimized user experiences.</li>
+              <li>Improved application performance and maintainability through clean coding practices and modular
+                architecture.</li>
+              <li>Participated in code reviews, helping improve overall code quality and knowledge sharing.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-title">Projects 🛸</div>
+        <p class="section-subtitle">Things I've built that I'm proud of</p>
+      </div>
+      <div class="projects-grid reveal">
+        <div class="project-card">
+          <div class="project-icon">🎙️</div>
+          <div class="project-name">Scribee — Medical Transcription</div>
+          <div class="project-tech">
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">Web App</span>
+          </div>
+          <p class="project-desc">A secure platform with live audio recording, automatic transcription, and structured
+            note generation. Subscription-based access focused on performance, security, and intuitive workflows for
+            healthcare users.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">⏳</div>
+          <div class="project-name">Decentralized Time Capsule</div>
+          <div class="project-tech">
+            <span class="tech-tag">Blockchain</span>
+            <span class="tech-tag">Dapp</span>
+            <span class="tech-tag">MetaMask</span>
+          </div>
+          <p class="project-desc">A decentralized app for encrypted, time-locked storage of messages and files using
+            smart contracts. Integrated MetaMask for secure auth and a user-friendly interface for creating, locking,
+            and opening time capsules.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">🛒</div>
+          <div class="project-name">Classified Marketplace</div>
+          <div class="project-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Web App</span>
+          </div>
+          <p class="project-desc">A responsive classified ads platform with user authentication, ad posting, advanced
+            search, and real-time updates. Emphasized scalable architecture and maintainable Angular components.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">🛡️</div>
+          <div class="project-name">AustGuards — Security Services</div>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Web App</span>
+          </div>
+          <p class="project-desc">A modern app for managing security and petroleum operations. Implemented service
+            modules, user workflows, and responsive dashboards for efficient operations. Prioritized performance
+            optimization and intuitive enterprise UX.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-title">Skills 🧰</div>
+        <p class="section-subtitle">My technical toolkit</p>
+      </div>
+      <div class="skills-grid reveal" id="skillsGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-title">Education 🎓</div>
+        <p class="section-subtitle">My academic background</p>
+      </div>
+      <div class="reveal">
+        <div class="edu-card">
+          <div class="edu-icon">🏫</div>
+          <div>
+            <div class="edu-degree">Bachelor of Science in Computer Science</div>
+            <div class="edu-school">Institute of Space and Technology</div>
+            <div class="edu-date">September 2020 — July 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-title">Let's Talk! 💬</div>
+        <p class="section-subtitle">I'm always open to new opportunities and collaborations</p>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <a href="mailto:saadsatti1514@gmail.com" class="contact-link">
+            <div class="icon">📧</div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--blue-light);margin-bottom:2px;">EMAIL</div>
+              saadsatti1514@gmail.com
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/saad-ansar-software-engineer" target="_blank" class="contact-link">
+            <div class="icon">💼</div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--blue-light);margin-bottom:2px;">LINKEDIN</div>
+              saad-ansar-software-engineer
+            </div>
+          </a>
+          <a href="tel:+923410880556" class="contact-link">
+            <div class="icon">📱</div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--blue-light);margin-bottom:2px;">PHONE</div>
+              +92-341-0880556
+            </div>
+          </a>
+          <div class="contact-link" style="cursor:none;">
+            <div class="icon">📍</div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--blue-light);margin-bottom:2px;">LOCATION</div>
+              Islamabad, Pakistan
+            </div>
+          </div>
+        </div>
+        <div class="contact-quote">
+          Let's build something amazing together — one clean component at a time. ✨
+          <div
+            style="margin-top:24px; font-family:'Nunito',sans-serif; font-size:0.92rem; opacity:0.85; font-weight:700;">
+            Currently open to full-time & freelance opportunities 🚀
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Crafted with ❤️ by <span>Saad Ansar</span> — © 2025
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
